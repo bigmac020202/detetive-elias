@@ -22,7 +22,7 @@
       btn.textContent = "⬇  Baixe agora — grátis";
       btn.href = cfg.download;
       btn.removeAttribute("aria-disabled");
-      $("download-note").textContent = "Detetive Elias Launcher · Windows 10/11 · instale e escolha os jogos";
+      $("download-note").textContent = "Detetive Elias Launcher " + (cfg.launcherVersion || "") + " · Windows 10/11 · instale e escolha os jogos";
       for (const a of document.querySelectorAll(".download-link")) if (a !== btn) a.href = cfg.download;
     } else {
       btn.textContent = "Disponível hoje às 14:30";
