@@ -1,0 +1,27 @@
+{
+  "updated": "2026-09-27",
+  "launcher": {
+    "version": "1.1.0",
+    "url": "https://github.com/bigmac020202/detetive-elias/releases/download/launcher-v1/DetetiveEliasLauncher-Setup.exe",
+    "size": 108323113,
+    "sha256": "504e0d5ab7f039230d15371fd569ebc373eda1e2c6f5481599158f83eb9b711b"
+  },
+  "games": [
+    {
+      "id": "de2",
+      "version": "1.0.2",
+      "parts": [
+        "https://github.com/bigmac020202/detetive-elias/releases/download/de2-v1/DetetiveElias2.zip"
+      ],
+      "size": 1041595769
+    },
+    {
+      "id": "de1",
+      "version": "1.0.0",
+      "parts": [
+        "https://github.com/bigmac020202/detetive-elias/releases/download/de1-remake-v1/DetetiveElias1-Remake.zip"
+      ],
+      "size": 1215562642
+    }
+  ]
+}
