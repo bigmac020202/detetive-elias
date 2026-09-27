@@ -5,5 +5,5 @@ window.SITE = {
   // link do botão "Baixe agora" (o instalador do launcher). Pode trocar pelo link do MediaFire.
   download: "https://github.com/bigmac020202/detetive-elias/releases/download/launcher-v1/DetetiveEliasLauncher-Setup.exe",
   // versão do launcher mostrada embaixo do botão
-  launcherVersion: "1.1.0",
+  launcherVersion: "1.1.1",
 };
