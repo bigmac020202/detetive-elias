@@ -173,3 +173,14 @@ blockquote { margin: 0 0 34px; padding-left: 20px; border-left: 3px solid var(--
   .nav-logo span { display: none; }
   blockquote { font-size: 20px; }
 }
+
+/* online: modos e mapas do coop */
+.coop-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 34px; }
+.coop-modes > div { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.07); border-radius: 12px; padding: 20px 22px; }
+.coop-modes h3 { font-family: "Playfair Display", serif; margin: 0 0 8px; font-size: 24px; color: #f2ede2; }
+.coop-modes p { margin: 0; color: #b9ad97; line-height: 1.6; }
+.map-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
+.map-grid figure { margin: 0; border-radius: 10px; overflow: hidden; background: #0b0c10; border: 1px solid rgba(255, 255, 255, 0.07); }
+.map-grid img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.map-grid figcaption { padding: 9px 13px 11px; color: #f2ede2; font-weight: 600; font-size: 15px; }
+@media (max-width: 640px) { .coop-modes { grid-template-columns: 1fr; } .map-grid { grid-template-columns: 1fr 1fr; } }
