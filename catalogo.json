@@ -1,0 +1,21 @@
+{
+  "updated": "2026-09-27",
+  "games": [
+    {
+      "id": "de2",
+      "version": "1.0.0",
+      "parts": [
+        "https://github.com/bigmac020202/detetive-elias/releases/download/de2-v1/DetetiveElias2.zip"
+      ],
+      "size": 1041802859
+    },
+    {
+      "id": "de1",
+      "version": "1.0.0",
+      "parts": [
+        "https://github.com/bigmac020202/detetive-elias/releases/download/de1-remake-v1/DetetiveElias1-Remake.zip"
+      ],
+      "size": 1215562642
+    }
+  ]
+}
