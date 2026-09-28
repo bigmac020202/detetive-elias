@@ -9,11 +9,11 @@
   "games": [
     {
       "id": "de2",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "parts": [
         "https://github.com/bigmac020202/detetive-elias/releases/download/de2-v1/DetetiveElias2.zip"
       ],
-      "size": 1097579099
+      "size": 1097580048
     },
     {
       "id": "de1",
